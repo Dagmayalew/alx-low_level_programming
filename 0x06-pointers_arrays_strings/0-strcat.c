@@ -2,9 +2,9 @@
 
 /**
  * *_strcat -  a function that concatenates two strings
- * @*dest:character
- * @*src:character
- * Return: ret
+ *@dest: A pointer to a character that will be changed
+ *@src: A pointer to a character that will also be changed
+ *Return: ret
  */
 char *_strcat(char *dest, char *src)
 {
