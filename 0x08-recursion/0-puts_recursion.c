@@ -5,7 +5,15 @@
  * @s: character
  */
 
+
 void _puts_recursion(char *s)
 {
-	puts(s);
+	/* Base case: if the end of string is reached, return */
+	if (*s == '\0')
+	{
+		_putchar('\n');
+		return;
+	}
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }
