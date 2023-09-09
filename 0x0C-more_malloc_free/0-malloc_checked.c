@@ -3,9 +3,14 @@
 #include <stdlib.h>
 #include <limits.h>
 
-
+/**
+ * *malloc_checked - a function that allocates memory using malloc
+ * @b: character
+ * Return:  a pointer to the allocated memory
+ */
 void *malloc_checked(unsigned int b)
 {
-    int *ptr;
-    ptr= malloc(b);
+	int *ptr;
+
+	ptr = malloc(b);
 }
